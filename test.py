@@ -282,7 +282,7 @@ class DeepSeekOptimizer:
                 print(S_Coil_H2)
 
                 app = xw.App(visible=False)  # 不显示Excel界面
-                wb = app.books.open('线圈损耗计算器.xlsx')
+                wb = app.books.open('coilloss_calculator.xlsx')
                 wb.sheets[0].range('H5').value = I1
                 wb.sheets[0].range('H6').value = I2
                 wb.sheets[0].range('J5').value = P_Coil_H2
